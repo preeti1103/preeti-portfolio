@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preeti Lokhande - Portfolio</title>
+    <link rel="icon" href="preeti-logo.png" type="image/png">
+
+    <!-- Font Awesome & CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Intersection Observer Polyfill (for older browsers) -->
+    <script src="https://unpkg.com/intersection-observer@0.12.0/intersection-observer.js"></script>
+</head>
+
+<body>
+    <!-- ===== HEADER ===== -->
+    <header>
+        <nav>
+            <span class="logo">PL</span>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1><span class="wave">👋</span> Hello, I'm Preeti</h1>
+            <p class="tagline">MS Information Systems | Web Developer | Python/SQL</p>
+            <a href="#contact" class="cta-btn">Let's Connect</a>
+        </div>
+        <div class="hero-img">
+            <img src="preeti-pic-2.jpg" alt="Preeti Lokhande">
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>Fresh out of my Master's in Information Systems from UT Arlington, I've spent the last year fully
+                immersed in web development. What began with online tutorials quickly turned into building real world
+                projects using React, JavaScript, and Node.js tools I now use every day, alongside the Python and SQL
+                expertise I gained in grad school.</p>
+            <p>During my time at Chartwells, I developed practical experience by creating dashboards that managers
+                relied on for inventory tracking. My role at Doordarshan, while less code focused, gave me valuable
+                insight into how large scale tech systems operate in the real world. Both experiences taught me how to
+                identify and solve problems that users actually face not just write code for its own sake.</p>
+            <p>Right now, I'm deep diving into modern web development, specializing in HTML, CSS, JavaScript, React, and
+                Node.js. Every day, I'm building projects, refining my skills, and learning how to craft responsive,
+                efficient web applications from front to back.</p>
+            <p>I've built applications with React, written clean JavaScript (ES6+), designed modern CSS layouts, and
+                developed server side solutions with Node.js. What fascinates me most is how these technologies come
+                together to solve real world challenges not just in theory, but in practice.</p>
+            <p>What drives me is the chance to build meaningful things while constantly growing as a developer. I'm
+                excited to bring my technical skills, problem solving mindset, and hands on experience to a professional
+                web development role where I can contribute, collaborate, and keep learning.</p>
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="education-grid">
+            <div class="education-card">
+                <h3>Master's in Information Systems</h3>
+                <p class="institution">University of Texas at Arlington, USA</p>
+                <p class="date">Graduated: May 2025</p>
+                <h4>Relevant Coursework:</h4>
+                <ul>
+                    <li>Data Mining</li>
+                    <li>Database Management</li>
+                    <li>Python Programming</li>
+                    <li>Web Technologies</li>
+                </ul>
+            </div>
+            <div class="education-card">
+                <h3>Bachelor of Engineering</h3>
+                <p class="institution">Mumbai University, India</p>
+                <p class="date">Graduated: June 2021</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience" class="section">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-grid">
+            <!-- Chartwells -->
+            <div class="experience-card">
+                <h3>Analyst</h3>
+                <p class="company">Chartwells Higher Education - Arlington, TX, USA</p>
+                <p class="date">Jan 2024 - May 2025</p>
+                <ul>
+                    <li>Tracked and analyzed daily inventory levels and sales data for over 2,000 SKUs, reducing waste
+                        by 15% and stockouts by 12%, enhancing product availability and customer satisfaction.</li>
+                    <li>Generated comprehensive weekly and monthly sales reports and dashboards in Excel, clearly
+                        highlighting key performance metrics and inventory trends for management.</li>
+                    <li>Conducted regular cycle counts and reconciled discrepancies, achieving 98% inventory accuracy,
+                        minimizing carrying costs, and streamlining operational efficiency.</li>
+                    <li>Identified inefficiencies in inventory management and analyzed sales data to pinpoint customer
+                        buying patterns and slow-moving items, contributing to targeted marketing strategies and a 15%
+                        reduction in excess inventory costs.</li>
+                </ul>
+            </div>
+            <!-- Doordarshan -->
+            <div class="experience-card">
+                <h3>Technical Intern</h3>
+                <p class="company">Doordarshan Kendra, Mumbai, India</p>
+                <p class="date">Jun 2022 - Aug 2023</p>
+                <ul>
+                    <li>Developed dashboards ...</li>
+                    <li>Managed centralized database ...</li>
+                    <li>Performed data cleaning ...</li>
+                    <li>Assisted in streamlining processes ...</li>
+                    <li>Supported broadcasters with analytics tools ...</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+            <!-- Frontend -->
+            <div class="skill-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+            <div class="skill-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+            <div class="skill-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+            <div class="skill-item"><i class="fab fa-react"></i><span>React</span></div>
+            <!-- Backend -->
+            <div class="skill-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+            <div class="skill-item"><i class="fab fa-python"></i><span>Python</span></div>
+            <!-- Databases -->
+            <div class="skill-item"><i class="fas fa-database"></i><span>SQL</span></div>
+            <div class="skill-item"><i class="fas fa-database"></i><span>MongoDB</span></div>
+            <!-- Tools -->
+            <div class="skill-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+            <div class="skill-item"><i class="fab fa-github"></i><span>GitHub</span></div>
+            <div class="skill-item"><i class="fas fa-terminal"></i><span>Bash</span></div>
+            <div class="skill-item"><i class="fab fa-npm"></i><span>npm</span></div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>project 1 description</p><a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>project 2 description</p><a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>project 3 description</p><a href="#" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-content">
+            <a href="mailto:preeti.lokhande@example.com" class="contact-link"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://linkedin.com/in/preeti-lokhande" class="contact-link" target="_blank"><i
+                    class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/preeti-lokhande" class="contact-link" target="_blank"><i
+                    class="fab fa-github"></i> GitHub</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

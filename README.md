@@ -1,1 +1,1 @@
-# preeti-portfolio
+# portfolio
