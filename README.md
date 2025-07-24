@@ -37,6 +37,7 @@ I'm planning to add:
 - Blog section
 
 **Found a bug or have suggestions?** Open an issue!
+https://github.com/preeti1103/preeti-portfolio/issues
 
 **License**
 This project is licensed under the MIT License - see the LICENSE file for details.
