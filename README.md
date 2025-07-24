@@ -24,6 +24,7 @@
 2. Open index.html in any modern browser
 
 **What I Learned**
+
 Building this taught me:
 - Responsive Design - Making it work perfectly on all devices
 - CSS Animations - Creating smooth, performant transitions
@@ -31,6 +32,7 @@ Building this taught me:
 - Problem Solving - Debugging cross-browser issues
 
 **Future Improvements**
+
 I'm planning to add:
 - Dark mode toggle
 - Project filtering system
